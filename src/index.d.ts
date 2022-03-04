@@ -1,6 +1,6 @@
 type Target = {
     name: string;
-    title: string;
+    title?: string;
     host: string;
     community?: string;
     oids: Array<string>;
